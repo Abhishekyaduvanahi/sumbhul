@@ -10,9 +10,9 @@ import { FaSnapchatGhost } from "react-icons/fa";
 const Social = () => {
   return (
     <>
-      <div className=" flex flex-col justify-center items-center space-y-16">
+      <div className=" md:flex md:flex-col  flex-row justify-center items-center space-y-16 hidden ">
         {/* this is for social icons  */}
-        <div className="flex mt-4 space-y-16  flex-col">
+        <div className="flex mt-4 md:space-y-16  md:flex-col flex-row">
           <a href="https://www.youtube.com/@Shumbul" target="_blank">
             <FaYoutube className="" size={22} />
           </a>
@@ -23,7 +23,7 @@ const Social = () => {
             <FaLinkedin size={22} />
           </a>
         </div>
-        <div className="flex mt-4 space-y-16 flex-col ">
+        <div className="flex  md:space-y-16 md:flex-col flex-row ">
           <a href="https://github.com/shumbul" target="_blank">
             <FaGithub size={22} />
           </a>

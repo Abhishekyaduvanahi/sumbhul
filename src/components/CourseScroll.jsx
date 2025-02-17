@@ -44,6 +44,15 @@ const CourseScroll = () => {
         {/* this is the right container */}
         <div className="md:w-1/2 w-auto m-2 mt-4">
           <img className="rounded-3xl" src={picture} alt="" />
+          <div className="flex flex-col">
+            <p className="flex justify-start text-xl text-blue-600">
+              Live classes
+            </p>
+            <p className="flex justify-start text-3xl mt-2 ">
+              Arrays & Vectors
+            </p>
+            {/* <p className="flex justify-start text-[45px] mt-2 ">Rs. 399</p> */}
+          </div>
         </div>
       </div>
     </>
