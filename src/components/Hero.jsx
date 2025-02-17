@@ -48,6 +48,15 @@ const Hero = () => {
             <FaSnapchatGhost size={22} />
           </a>
         </div>
+        <div className="mt-6">
+          <a
+            className="p-2 bg-blue-400 text-white rounded-3xl"
+            href="https://shumbularifa.com/"
+            target="_blank"
+          >
+            shumbularifa.com
+          </a>
+        </div>
       </div>
     </>
   );

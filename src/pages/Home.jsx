@@ -38,7 +38,7 @@ const Home = () => {
       <div
         className={`md:w-[75%] w-auto ${
           scrollingComplete ? "overflow-y-auto" : "overflow-hidden"
-        } flex justify-center relative bg-gray-100 md:h-screen h-auto`}
+        } flex justify-center relative  md:h-screen h-auto`}
         onScroll={handleScroll}
       >
         <motion.div

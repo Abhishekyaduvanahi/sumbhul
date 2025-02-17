@@ -33,7 +33,7 @@ const HomeScroll = () => {
           </div>
           <div className="flex flex-col justify-center">
             <TbHexagonLetterN size={35} />
-            <p>Favikon</p>
+            <p>Unstop</p>
             <p>Among top 75</p>
             <p>unstoppable</p>
             <p>Influencers 2023</p>
