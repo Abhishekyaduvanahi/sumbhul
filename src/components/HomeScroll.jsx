@@ -9,17 +9,28 @@ const HomeScroll = () => {
       <div>
         <div className=" flex flex-col w-auto justify-center">
           <h1 className=" text-[20px] md:text-[70px] font-bold  font-serif flex justify-center">
-            Learn with Shumbhul
+            Learn with Shumbul
           </h1>
           <p className="text-[12px] md:text-[25px] m-1 flex justify-center">
             Being the mentor I always needed
           </p>
-          <button className="bg-blue-700 text-white p-2 rounded-full hover:bg-blue-900">
-            Book your Seat
-          </button>
-          <button className="border border-black text-black p-2 rounded-full mt-1 hover:bg-slate-300">
-            21 Days DSA Challenge
-          </button>
+          <a
+            href="https://rpy.club/courses/oonRKumoD2"
+            className="flex justify-center mt-4 p-2"
+          >
+            <button className="bg-blue-700 text-white p-3  px-8 rounded-full hover:bg-blue-900">
+              Book your Seat
+            </button>
+          </a>
+
+          <a
+            href="https://shumbularifa.com/challenge"
+            className="flex justify-center mt-1"
+          >
+            <button className="border border-black text-black p-2 rounded-full mt-1 hover:bg-slate-300">
+              21 Days DSA Challenge
+            </button>
+          </a>
           <h4 className="flex justify-center mt-2">Reconginzed By</h4>
         </div>
         {/* this div is for favikon and unstop section */}

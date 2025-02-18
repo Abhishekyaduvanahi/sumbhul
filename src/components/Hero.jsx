@@ -50,7 +50,7 @@ const Hero = () => {
         </div>
         <div className="mt-6">
           <a
-            className="p-2 bg-blue-400 text-white rounded-3xl"
+            className="p-2 bg-blue-600 hover:bg-blue-800 text-white rounded-3xl"
             href="https://shumbularifa.com/"
             target="_blank"
           >
